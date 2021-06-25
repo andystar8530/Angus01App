@@ -14,7 +14,7 @@
 			rejectedPolicy="CallerRuns" />
 
 		<restConfiguration scheme="http" component="restlet"
-			contextPath="/test" port="8081" enableCORS="true">
+			contextPath="/test" port="8080" enableCORS="true">
 		</restConfiguration>
 		<!-- 第一區 -->
 		<rest id="angus01AppApi" produces="application/json">
