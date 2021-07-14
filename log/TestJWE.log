@@ -198,3 +198,119 @@
 2021-06-25 16:17:25.786 [RMI TCP Connection(106)-127.0.0.1] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Graceful shutdown of 2 routes completed in 0 seconds
 2021-06-25 16:17:25.791 [RMI TCP Connection(106)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) uptime 32 minutes
 2021-06-25 16:17:25.792 [RMI TCP Connection(106)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutdown in 0.007 seconds
+2021-06-25 17:24:52.100 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Starting Angus01AppApplication using Java 1.8.0_252 on AngusChenCH with PID 8384 (E:\_BlueSprintTools4_workspace\Angus01App\target\classes started by AngusChen in E:\_BlueSprintTools4_workspace\Angus01App)
+2021-06-25 17:24:52.104 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - No active profile set, falling back to default profiles: default
+2021-06-25 17:24:52.184 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in E:\_SpringBoot\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/E:/_SpringBoot/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2021-06-25 17:24:52.185 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in E:\_SpringBoot\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/E:/_SpringBoot/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2021-06-25 17:24:52.185 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-25 17:24:52.185 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-25 17:24:54.327 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ad46e97b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 17:24:54.385 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-06-25 17:24:55.023 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-06-25 17:24:55.044 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-06-25 17:24:55.048 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-25 17:24:55.051 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-25 17:24:55.180 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-25 17:24:55.181 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2995 ms
+2021-06-25 17:24:55.381 [restartedMain] INFO  o.a.camel.core.xml.AbstractCamelContextFactoryBean - Using custom default ThreadPoolProfile with id: defaultThreadPoolProfile and implementation: org.apache.camel.model.ThreadPoolProfileDefinition@42e59792
+2021-06-25 17:24:55.470 [restartedMain] INFO  o.apache.camel.impl.converter.DefaultTypeConverter - Type converters loaded (core: 195, classpath: 11)
+2021-06-25 17:24:55.472 [restartedMain] INFO  o.apache.camel.impl.DefaultExecutorServiceManager - Using custom DefaultThreadPoolProfile: ThreadPoolProfile[defaultThreadPoolProfile (true) size:50-200, keepAlive: 60 SECONDS, maxQueue: 1000, allowCoreThreadTimeOut:false, rejectedPolicy:CallerRuns]
+2021-06-25 17:24:55.872 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-25 17:24:55.923 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-06-25 17:24:55.975 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-25 17:24:56.006 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is starting
+2021-06-25 17:24:56.009 [restartedMain] INFO  o.a.camel.management.ManagedManagementStrategy - JMX is enabled
+2021-06-25 17:24:56.230 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2021-06-25 17:24:56.372 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: route1 started and consuming from: direct://angus01App
+2021-06-25 17:24:56.387 [restartedMain] INFO  org.restlet.Component.Server - Starting the internal [HTTP/1.1] server on port 8080
+2021-06-25 17:24:56.391 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: angus01App started and consuming from: restlet://http://0.0.0.0:8080/test/angus01app?restletMethods=POST,OPTIONS
+2021-06-25 17:24:56.392 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Total 2 routes, of which 2 are started
+2021-06-25 17:24:56.393 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) started in 0.386 seconds
+2021-06-25 17:24:56.403 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Started Angus01AppApplication in 5.391 seconds (JVM running for 7.272)
+2021-06-25 17:25:16.822 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-25 17:25:16.822 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-25 17:25:16.827 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-06-25 17:25:24.787 [Restlet-1499958567] INFO  i.example.demo.service.impl.Angus01AppServiceImpl - ===================helloWord===================
+2021-06-25 17:25:24.803 [Restlet-1499958567] INFO  org.restlet.Component.LogService - 2021-06-25	17:25:24	127.0.0.1	-	0.0.0.0	8080	POST	/test/angus01app	-	200	11	1011	37	http://127.0.0.1:8080	PostmanRuntime/7.28.0	-
+2021-06-25 17:32:59.891 [Thread-7] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutting down
+2021-06-25 17:32:59.892 [Thread-7] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2021-06-25 17:32:59.901 [Camel (camel) thread #1 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: angus01App shutdown complete, was consuming from: rest://post:/angus01app?componentName=restlet&description=helloWord%21%21&produces=application%2Fjson&routeId=angus01App
+2021-06-25 17:32:59.903 [Camel (camel) thread #1 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: route1 shutdown complete, was consuming from: direct://angus01App
+2021-06-25 17:32:59.903 [Thread-7] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Graceful shutdown of 2 routes completed in 0 seconds
+2021-06-25 17:32:59.937 [Thread-7] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) uptime 8 minutes
+2021-06-25 17:32:59.938 [Thread-7] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutdown in 0.047 seconds
+2021-06-25 17:33:05.240 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Starting Angus01AppApplication using Java 1.8.0_252 on AngusChenCH with PID 8384 (E:\_BlueSprintTools4_workspace\Angus01App\target\classes started by AngusChen in E:\_BlueSprintTools4_workspace\Angus01App)
+2021-06-25 17:33:05.241 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - No active profile set, falling back to default profiles: default
+2021-06-25 17:33:05.653 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ad46e97b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 17:33:05.656 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-06-25 17:33:05.703 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-06-25 17:33:05.704 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-25 17:33:05.704 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-25 17:33:05.735 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-25 17:33:05.735 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 489 ms
+2021-06-25 17:33:05.756 [restartedMain] INFO  o.a.camel.core.xml.AbstractCamelContextFactoryBean - Using custom default ThreadPoolProfile with id: defaultThreadPoolProfile and implementation: org.apache.camel.model.ThreadPoolProfileDefinition@3d3dba07
+2021-06-25 17:33:05.760 [restartedMain] INFO  o.apache.camel.impl.converter.DefaultTypeConverter - Type converters loaded (core: 195, classpath: 11)
+2021-06-25 17:33:05.760 [restartedMain] INFO  o.apache.camel.impl.DefaultExecutorServiceManager - Using custom DefaultThreadPoolProfile: ThreadPoolProfile[defaultThreadPoolProfile (true) size:50-200, keepAlive: 60 SECONDS, maxQueue: 1000, allowCoreThreadTimeOut:false, rejectedPolicy:CallerRuns]
+2021-06-25 17:33:05.878 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-25 17:33:05.901 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-25 17:33:05.910 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is starting
+2021-06-25 17:33:05.910 [restartedMain] INFO  o.a.camel.management.ManagedManagementStrategy - JMX is enabled
+2021-06-25 17:33:05.947 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2021-06-25 17:33:05.969 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: route3 started and consuming from: direct://angus01App
+2021-06-25 17:33:05.973 [restartedMain] INFO  org.restlet.Component.Server - Starting the internal [HTTP/1.1] server on port 8081
+2021-06-25 17:33:05.973 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: angus01App started and consuming from: restlet://http://0.0.0.0:8081/test/angus01app?restletMethods=POST,OPTIONS
+2021-06-25 17:33:05.974 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Total 2 routes, of which 2 are started
+2021-06-25 17:33:05.974 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) started in 0.065 seconds
+2021-06-25 17:33:05.978 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Started Angus01AppApplication in 0.796 seconds (JVM running for 496.847)
+2021-06-25 17:33:05.981 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-25 17:33:07.426 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-06-25 17:33:07.427 [RMI TCP Connection(18)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutting down
+2021-06-25 17:33:07.428 [RMI TCP Connection(18)-127.0.0.1] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2021-06-25 17:33:07.429 [Camel (camel) thread #3 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: angus01App shutdown complete, was consuming from: rest://post:/angus01app?componentName=restlet&description=helloWord%21%21&produces=application%2Fjson&routeId=angus01App
+2021-06-25 17:33:07.430 [Camel (camel) thread #3 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: route3 shutdown complete, was consuming from: direct://angus01App
+2021-06-25 17:33:07.430 [RMI TCP Connection(18)-127.0.0.1] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Graceful shutdown of 2 routes completed in 0 seconds
+2021-06-25 17:33:07.439 [RMI TCP Connection(18)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) uptime 1.530 seconds
+2021-06-25 17:33:07.440 [RMI TCP Connection(18)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutdown in 0.012 seconds
+2021-06-25 17:33:23.947 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Starting Angus01AppApplication using Java 1.8.0_252 on AngusChenCH with PID 13788 (E:\_BlueSprintTools4_workspace\Angus01App\target\classes started by AngusChen in E:\_BlueSprintTools4_workspace\Angus01App)
+2021-06-25 17:33:23.951 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - No active profile set, falling back to default profiles: default
+2021-06-25 17:33:24.026 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in E:\_SpringBoot\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/E:/_SpringBoot/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2021-06-25 17:33:24.027 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in E:\_SpringBoot\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/E:/_SpringBoot/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2021-06-25 17:33:24.027 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-25 17:33:24.028 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-25 17:33:25.959 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$41eb98e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 17:33:25.998 [restartedMain] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-06-25 17:33:26.592 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-06-25 17:33:26.603 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-25 17:33:26.604 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-25 17:33:26.605 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-25 17:33:26.712 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-25 17:33:26.712 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2684 ms
+2021-06-25 17:33:26.876 [restartedMain] INFO  o.a.camel.core.xml.AbstractCamelContextFactoryBean - Using custom default ThreadPoolProfile with id: defaultThreadPoolProfile and implementation: org.apache.camel.model.ThreadPoolProfileDefinition@1372e9a6
+2021-06-25 17:33:27.004 [restartedMain] INFO  o.apache.camel.impl.converter.DefaultTypeConverter - Type converters loaded (core: 195, classpath: 11)
+2021-06-25 17:33:27.007 [restartedMain] INFO  o.apache.camel.impl.DefaultExecutorServiceManager - Using custom DefaultThreadPoolProfile: ThreadPoolProfile[defaultThreadPoolProfile (true) size:50-200, keepAlive: 60 SECONDS, maxQueue: 1000, allowCoreThreadTimeOut:false, rejectedPolicy:CallerRuns]
+2021-06-25 17:33:27.587 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-06-25 17:33:27.783 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-25 17:33:27.846 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-25 17:33:27.870 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-25 17:33:27.889 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is starting
+2021-06-25 17:33:27.892 [restartedMain] INFO  o.a.camel.management.ManagedManagementStrategy - JMX is enabled
+2021-06-25 17:33:28.079 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2021-06-25 17:33:28.193 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: route1 started and consuming from: direct://angus01App
+2021-06-25 17:33:28.208 [restartedMain] INFO  org.restlet.Component.Server - Starting the internal [HTTP/1.1] server on port 8081
+2021-06-25 17:33:28.212 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Route: angus01App started and consuming from: restlet://http://0.0.0.0:8081/test/angus01app?restletMethods=POST,OPTIONS
+2021-06-25 17:33:28.213 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Total 2 routes, of which 2 are started
+2021-06-25 17:33:28.214 [restartedMain] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) started in 0.324 seconds
+2021-06-25 17:33:28.233 [restartedMain] INFO  idv.example.demo.Angus01AppApplication - Started Angus01AppApplication in 4.898 seconds (JVM running for 7.31)
+2021-06-25 17:33:35.978 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-25 17:33:35.978 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-25 17:33:35.980 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-25 17:33:40.576 [Restlet-807970096] INFO  i.example.demo.service.impl.Angus01AppServiceImpl - ===================helloWord===================
+2021-06-25 17:33:40.594 [Restlet-807970096] INFO  org.restlet.Component.LogService - 2021-06-25	17:33:40	127.0.0.1	-	0.0.0.0	8081	POST	/test/angus01app	-	200	11	1011	50	http://127.0.0.1:8081	PostmanRuntime/7.28.0	-
+2021-06-25 17:40:37.254 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-06-25 17:40:37.258 [RMI TCP Connection(13)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutting down
+2021-06-25 17:40:37.259 [RMI TCP Connection(13)-127.0.0.1] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2021-06-25 17:40:37.263 [Camel (camel) thread #1 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: angus01App shutdown complete, was consuming from: rest://post:/angus01app?componentName=restlet&description=helloWord%21%21&produces=application%2Fjson&routeId=angus01App
+2021-06-25 17:40:37.264 [Camel (camel) thread #1 - ShutdownTask] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Route: route1 shutdown complete, was consuming from: direct://angus01App
+2021-06-25 17:40:37.265 [RMI TCP Connection(13)-127.0.0.1] INFO  org.apache.camel.impl.DefaultShutdownStrategy - Graceful shutdown of 2 routes completed in 0 seconds
+2021-06-25 17:40:37.279 [RMI TCP Connection(13)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) uptime 7 minutes
+2021-06-25 17:40:37.279 [RMI TCP Connection(13)-127.0.0.1] INFO  org.apache.camel.spring.SpringCamelContext - Apache Camel 2.24.2 (CamelContext: camel) is shutdown in 0.021 seconds
