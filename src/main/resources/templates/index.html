@@ -16,7 +16,7 @@
 		};
 		btn.onclick = function() {
 			xhr = new XMLHttpRequest();
-			xhr.open('GET', "/SpringBoot_Restful_Crud/customers/", true);
+			xhr.open('GET', "/customers/", true);
 			xhr.send();
 			xhr.onreadystatechange = function() {
 				if (xhr.status == 200 && xhr.readyState == 4) {
